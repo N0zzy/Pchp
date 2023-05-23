@@ -10,10 +10,6 @@
   <ItemGroup>
     <Compile Include="**/*.php" />
  </ItemGroup>
-  
-  <ItemGroup>
-    <Folder Include="Php\App\" />
-  </ItemGroup>
 
   
 </Project>
