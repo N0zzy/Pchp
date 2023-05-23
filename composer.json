@@ -1,7 +1,14 @@
 ﻿{
+  "authors": [{
+    "name": "N0zzy",
+    "email": "",
+    "homepage": "https://github.com/N0zzy",
+    "role": "Developer"
+  }],
   "autoload": {
     "psr-4": {
       "Php\\": "Php/",
+      "Php\\App\\": "Php/App/",
       "": ""
     }
   }
