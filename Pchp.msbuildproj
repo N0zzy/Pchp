@@ -1,0 +1,19 @@
+<Project Sdk="Peachpie.NET.Sdk/1.1.7">
+
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <StartupObject>Autoload.php</StartupObject>
+    <Configurations>Release;Debug</Configurations>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+ </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Php\App\" />
+  </ItemGroup>
+
+  
+</Project>
