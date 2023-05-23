@@ -1,8 +1,10 @@
 ﻿<?php
 namespace Php;
 
-final class Program {
-    public function main(...$args){
+use Php\App\Example;
 
+final class Program {
+    public function Main(){
+       new Example();
     }
 }

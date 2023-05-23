@@ -1,5 +1,5 @@
 ﻿<?php 
-namespace App;
+namespace Php\App;
 
 class Example {
     public function __construct(){
