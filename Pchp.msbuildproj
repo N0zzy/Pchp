@@ -1,4 +1,4 @@
-<Project Sdk="Peachpie.NET.Sdk/1.1.7">
+<Project Sdk="Peachpie.NET.Sdk/1.2.0-r15780">
 
   <PropertyGroup>
     <OutputType>exe</OutputType>
@@ -10,6 +10,10 @@
   <ItemGroup>
     <Compile Include="**/*.php" />
  </ItemGroup>
-
+  
+<!--  <ItemGroup>-->
+<!--    <PackageReference Include="Peachpie.App" Version="1.2.0-r15780" />-->
+<!--  </ItemGroup>-->
+  
   
 </Project>
